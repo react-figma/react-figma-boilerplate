@@ -1,0 +1,36 @@
+{
+  "name": "react-figma-boilerplate",
+  "version": "1.0.0",
+  "description": "Boilerplate app for react-figma",
+  "main": "./src/code.tsx",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack:watch": "webpack --watch"
+  },
+  "keywords": [
+    "react",
+    "react-figma",
+    "react-figma-boilerplate",
+    "figma",
+    "figma-plugins"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/losyear/react-figma-boilerplate.git"
+  },
+  "author": "Yaroslav Losev <losevyaroslav@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.9.0",
+    "react-figma": "latest",
+    "yoga-layout": "^1.9.3"
+  },
+  "devDependencies": {
+    "html-webpack-inline-source-plugin": "^0.0.10",
+    "html-webpack-plugin": "^3.2.0",
+    "ts-loader": "^6.0.4",
+    "typescript": "^3.5.3",
+    "webpack": "^4.39.2",
+    "webpack-cli": "^3.3.7"
+  }
+}
