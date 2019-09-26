@@ -22,7 +22,7 @@
   "license": "ISC",
   "dependencies": {
     "react": "^16.9.0",
-    "react-figma": "latest",
+    "react-figma": "0.0.1-alpha.6",
     "yoga-layout": "^1.9.3"
   },
   "devDependencies": {

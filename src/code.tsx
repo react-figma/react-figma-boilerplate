@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { renderer, subscribeOnMessages } from 'react-figma';
+import { render, subscribeOnMessages } from 'react-figma';
 import { App } from './App';
 
 figma.showUI(__html__, { visible: false });
@@ -9,6 +9,6 @@ figma.ui.onmessage = message => {
 };
 
 (async () => {
-  await renderer(<App />);
-  figma.closePlugin();
+    await figma.loadFontAsync({ family: 'Roboto', style: 'Regular' });
+    render(<App />, figma.root);
 })();
