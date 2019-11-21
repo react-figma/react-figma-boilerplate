@@ -10,20 +10,20 @@ The template includes:
 ## Quick start
 - clone repository from GitHub
     ````
-    git clone https://github.com/LosYear/react-figma-boilerplate.git
+    git clone https://github.com/LosYear/react-figma-boilerplate.git <your project name>
     ````
 
 - install node modules either with `Yarn` or `npm`
 
     Yarn:
     ````
-    cd react-figma-boilerplate
+    cd <your project name>
     yarn 
     ````
     
     npm:
     ````
-    cd react-figma-boilerplate
+    cd <your project name>
     npm install
     ````
 
@@ -36,6 +36,6 @@ The template includes:
     
     npm:
     ````
-    cd react-figma-boilerplate
+    cd <your project name>
     npm run webpack:watch
     ````
