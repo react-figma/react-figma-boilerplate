@@ -2559,10 +2559,10 @@ rc@^1.2.7:
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
 
-react-figma-webpack-config@^0.0.0:
-  version "0.0.0"
-  resolved "https://registry.yarnpkg.com/react-figma-webpack-config/-/react-figma-webpack-config-0.0.0.tgz#92cded0876be176b28fb7440ffc6023fcb00ecbc"
-  integrity sha512-P/i9b1Q3kRxcfmTax71Sn9dlMryKdgs+sq1zPWAD1hH3eA8PrTtuc8zmsXLrtbbXc3JQsJkd85SlzvlPMV0N+w==
+react-figma-webpack-config@0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/react-figma-webpack-config/-/react-figma-webpack-config-0.0.2.tgz#41c577f7ef4291182b1504d45a41bf51c8b4b8e5"
+  integrity sha512-CZIXxV8qz8n1cBqUGJgG7Sky92OSGOFWb7kJPaG8/aNhatiiHp/EF9eiKRb6eY7+6UzIGdIcNknMJG8FvNUynQ==
   dependencies:
     html-webpack-inline-source-plugin "^0.0.10"
     html-webpack-plugin "^3.2.0"
@@ -2572,10 +2572,10 @@ react-figma-webpack-config@^0.0.0:
     webpack "^4.41.2"
     webpack-merge "^4.2.2"
 
-react-figma@0.0.1-alpha.20:
-  version "0.0.1-alpha.20"
-  resolved "https://registry.yarnpkg.com/react-figma/-/react-figma-0.0.1-alpha.20.tgz#ef668ae7a4e7a689233757964882343e6da846ec"
-  integrity sha512-EDnZJDEAK4NDyDGiphHyq8nzZIu+elXJ690RuC46xbVLcAyE7yIgYJumjWXvhoEe1P4H0U8+N+XDA4NggJ+3EQ==
+react-figma@0.0.1-alpha.21:
+  version "0.0.1-alpha.21"
+  resolved "https://registry.yarnpkg.com/react-figma/-/react-figma-0.0.1-alpha.21.tgz#e89fb226ddf6e3a28bcd16a846ffde78090f92ca"
+  integrity sha512-V3EwQPtiYZ8CRsczZlZUqnDRsBT72NyNpCMZJOgt7gxvHWMBh2H2Dz3cPENHoqH15DN1oIZ03fm85L0YlREW/w==
   dependencies:
     color-parse "^1.3.8"
     nanoid "^2.0.3"
