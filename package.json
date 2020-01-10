@@ -4,7 +4,6 @@
   "description": "Boilerplate app for react-figma",
   "main": "./src/code.tsx",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "webpack:watch": "webpack --watch"
   },
   "keywords": [
@@ -16,7 +15,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/losyear/react-figma-boilerplate.git"
+    "url": "git+ssh://git@github.com/react-figma/react-figma-boilerplate.git"
   },
   "author": "Yaroslav Losev <losevyaroslav@gmail.com>",
   "license": "ISC",

@@ -10,7 +10,7 @@ The template includes:
 ## Quick start
 - clone repository from GitHub
     ````
-    git clone https://github.com/LosYear/react-figma-boilerplate.git <your project name>
+    git clone https://github.com/react-figma/react-figma-boilerplate.git <your project name>
     ````
 
 - install node modules either with `Yarn` or `npm`
