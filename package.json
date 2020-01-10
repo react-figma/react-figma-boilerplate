@@ -21,7 +21,7 @@
   "license": "ISC",
   "dependencies": {
     "react": "^16.9.0",
-    "react-figma": "0.0.1-alpha.21",
+    "react-figma": "0.0.45",
     "yoga-layout-prebuilt": "^1.9.3"
   },
   "devDependencies": {
