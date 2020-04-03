@@ -2559,10 +2559,15 @@ rc@^1.2.7:
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
 
-react-figma-webpack-config@0.0.2:
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/react-figma-webpack-config/-/react-figma-webpack-config-0.0.2.tgz#41c577f7ef4291182b1504d45a41bf51c8b4b8e5"
-  integrity sha512-CZIXxV8qz8n1cBqUGJgG7Sky92OSGOFWb7kJPaG8/aNhatiiHp/EF9eiKRb6eY7+6UzIGdIcNknMJG8FvNUynQ==
+react-fetch-hook@1.7.2:
+  version "1.7.2"
+  resolved "https://registry.yarnpkg.com/react-fetch-hook/-/react-fetch-hook-1.7.2.tgz#5aaddea774746f8e19fc3157248575d140d92108"
+  integrity sha512-hgEBSzqIm3ZhTnmP0QrfDdVQJ4Gzc+EXGTxd1yHEC40QE3r1mHF7HKzJBiS4VNNdmFdOZ/bAZ5XmK4apW4JCFA==
+
+react-figma-webpack-config@latest:
+  version "0.0.5"
+  resolved "https://registry.yarnpkg.com/react-figma-webpack-config/-/react-figma-webpack-config-0.0.5.tgz#edd849ed9e966e5fd2f2021aacf95d60f1545a78"
+  integrity sha512-iR1vfjQmxMzELINvajh1K39VA0ZVEDGJbxPjfb/0OTxDpnDXOznbrI0FPEiCbB7IT0XvMANXZGWx+QLGCSq5OQ==
   dependencies:
     html-webpack-inline-source-plugin "^0.0.10"
     html-webpack-plugin "^3.2.0"
@@ -2572,13 +2577,14 @@ react-figma-webpack-config@0.0.2:
     webpack "^4.41.2"
     webpack-merge "^4.2.2"
 
-react-figma@0.0.45:
-  version "0.0.45"
-  resolved "https://registry.yarnpkg.com/react-figma/-/react-figma-0.0.45.tgz#b3935e4409238b78380118a0f1b0ac00bcefca7c"
-  integrity sha512-/CSRbkMoMchVv/TFvBaJfoYbAwnouVl6qzDqJj/15WyJhU/K7C8ILE/x5iUX8xXst0rajcFiOfx1ZM+8XxqRrw==
+react-figma@latest:
+  version "0.0.57"
+  resolved "https://registry.yarnpkg.com/react-figma/-/react-figma-0.0.57.tgz#14afc6c403a7c5c74b1d40b2c0e5bd9086062b9e"
+  integrity sha512-0FOGeHCYu+/hy3V9sK+/pxXrPH0AUWXiWbcX2gJUNH33SajzBeOOgoHej1Tp0NbqA21EV145oX3ETI12H/zZsw==
   dependencies:
     color-parse "^1.3.8"
     nanoid "^2.0.3"
+    react-fetch-hook "1.7.2"
     react-reconciler "^0.23.0"
     rxjs "^6.5.2"
     utility-types "^3.10.0"
