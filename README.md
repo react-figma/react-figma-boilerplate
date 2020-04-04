@@ -1,16 +1,12 @@
-# react-figma boilerplate
-A basic template to start working with [react-figma](https://www.npmjs.com/package/react-figma) package
+# react-figma-plugin boilerplate
+This is a fork of [react-figma boilerplate](https://github.com/react-figma/react-figma-boilerplate).
 
-The template includes:
-
-- Basic file structure
-- TypeScript configuration
-- Webpack configuration
+This boilerplate is intended to make it easier to create UI for figma plugin with React.
 
 ## Quick start
 - clone repository from GitHub
     ````
-    git clone https://github.com/react-figma/react-figma-boilerplate.git <your project name>
+    git clone https://github.com/kazuyaseki/react-figma-plugin-boilerplate.git <your project name>
     ````
 
 - install node modules either with `Yarn` or `npm`
