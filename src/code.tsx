@@ -1,7 +1,7 @@
 import { subscribeOnMessages } from 'react-figma';
 
-figma.showUI(__html__, { visible: false });
+figma.showUI(__html__);
 
-figma.ui.onmessage = message => {
+figma.ui.onmessage = (message) => {
   subscribeOnMessages(message);
 };
