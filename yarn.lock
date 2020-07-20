@@ -1966,15 +1966,10 @@ locate-path@^3.0.0:
     p-locate "^3.0.0"
     path-exists "^3.0.0"
 
-lodash@^4.17.15:
+lodash@^4.17.15, lodash@^4.17.3:
   version "4.17.19"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.19.tgz#e48ddedbe30b3321783c5b4301fbd353bc1e4a4b"
   integrity sha512-JNvd8XER9GQX0v2qJgsaN/mzFCNA5BRe/j8JN9d+tWyGLSodKQHKFicdwNYzWwI3wjRnaKPsGj1XkBjx/F96DQ==
-
-lodash@^4.17.3:
-  version "4.17.15"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
-  integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
 
 loose-envify@^1.1.0, loose-envify@^1.4.0:
   version "1.4.0"
@@ -2599,7 +2594,7 @@ react-fetch-hook@1.7.2:
   resolved "https://registry.yarnpkg.com/react-fetch-hook/-/react-fetch-hook-1.7.2.tgz#5aaddea774746f8e19fc3157248575d140d92108"
   integrity sha512-hgEBSzqIm3ZhTnmP0QrfDdVQJ4Gzc+EXGTxd1yHEC40QE3r1mHF7HKzJBiS4VNNdmFdOZ/bAZ5XmK4apW4JCFA==
 
-react-figma-webpack-config@^0.0.7:
+react-figma-webpack-config@latest:
   version "0.0.7"
   resolved "https://registry.yarnpkg.com/react-figma-webpack-config/-/react-figma-webpack-config-0.0.7.tgz#72f17d6978cedab1fdc0a63a8e4a4b68560896f3"
   integrity sha512-Onx/5srpym9gVdfXqW55m6TRfCh5hVVRJD/h+iUZzoPkQidAZI7AEXgUDdiZnNI5GVlR7CXRS2guo7nGVlfGuw==
