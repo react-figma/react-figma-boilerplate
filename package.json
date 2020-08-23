@@ -20,9 +20,9 @@
   "author": "Yaroslav Losev <losevyaroslav@gmail.com>",
   "license": "ISC",
   "dependencies": {
+    "@figma/plugin-typings": "^1.16.1",
     "react": "^16.9.0",
-    "react-figma": "latest",
-    "yoga-layout-prebuilt": "^1.9.3"
+    "react-figma": "latest"
   },
   "devDependencies": {
     "html-webpack-inline-source-plugin": "^0.0.10",

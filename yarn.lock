@@ -2,6 +2,11 @@
 # yarn lockfile v1
 
 
+"@figma/plugin-typings@^1.16.1":
+  version "1.16.1"
+  resolved "https://registry.yarnpkg.com/@figma/plugin-typings/-/plugin-typings-1.16.1.tgz#87c2dc32f81058c61199e14c014155fd411a29b0"
+  integrity sha512-8zJHr0UASf2eDBGW/jNV1PLB1FqNyMpy1Z7v5XODHUEDkoXO/UBfeRohx0SqIz44z/0eSG4youSzYUZoZbdeqg==
+
 "@webassemblyjs/ast@1.8.5":
   version "1.8.5"
   resolved "https://registry.yarnpkg.com/@webassemblyjs/ast/-/ast-1.8.5.tgz#51b1c5fe6576a34953bf4b253df9f0d490d9e359"
@@ -2607,10 +2612,10 @@ react-figma-webpack-config@latest:
     webpack "^4.41.2"
     webpack-merge "^4.2.2"
 
-react-figma@latest:
-  version "0.1.7"
-  resolved "https://registry.yarnpkg.com/react-figma/-/react-figma-0.1.7.tgz#1c13f42dbc992bad45474b1f607e6e9019796161"
-  integrity sha512-Y1jugVwOungDS0hSNhxo4GmVzkiX6kQNqVl2xumxSFql5zc4DCcj4uKWuQ6mpFGisprTD/ou+EIzf64VE3LOlQ==
+react-figma@^0.1.13:
+  version "0.1.13"
+  resolved "https://registry.yarnpkg.com/react-figma/-/react-figma-0.1.13.tgz#061774e1ae0be17c4c8af9967bf5634e8266f341"
+  integrity sha512-Rk2vUaZzlIOIxPdMHDGFaEM9vXLQfTgpKwnEnwZppULbMCSdHELecwwKEsrKt+pSmahz2Bbowpwtztw17a7pgQ==
   dependencies:
     color-parse "^1.3.8"
     figma-jsonrpc "^0.4.0"
@@ -3557,7 +3562,7 @@ yargs@13.2.4:
     y18n "^4.0.0"
     yargs-parser "^13.1.0"
 
-yoga-layout-prebuilt@1.9.3, yoga-layout-prebuilt@^1.9.3:
+yoga-layout-prebuilt@1.9.3:
   version "1.9.3"
   resolved "https://registry.yarnpkg.com/yoga-layout-prebuilt/-/yoga-layout-prebuilt-1.9.3.tgz#11e3be29096afe3c284e5d963cc2d628148c1372"
   integrity sha512-9SNQpwuEh2NucU83i2KMZnONVudZ86YNcFk9tq74YaqrQfgJWO3yB9uzH1tAg8iqh5c9F5j0wuyJ2z72wcum2w==
